@@ -12,6 +12,7 @@ namespace VeterinarioRifeño_2020
 {
     public partial class VentanaLogin : Form
     {
+        Conexion conexion = new Conexion();
         public VentanaLogin()
         {
             InitializeComponent();
@@ -19,9 +20,24 @@ namespace VeterinarioRifeño_2020
 
         private void button1_Click(object sender, EventArgs e)
         {
-            VentanaPrincipal v = new VentanaPrincipal();
-            v.Show();
+            if (conexion.loginVeterinario(textBoxDNI.Text, textBoxpass.Text))
+            {
+                //Cuando ponga el usuario correcto para que se cierre la apliación.
+                this.Hide();
+                VentanaPrincipal v = new VentanaPrincipal();
+                v.Show();
+            }
+            else
+            {
+                MessageBox.Show("EL USUARIO O LA CONTRASEÑA SON INCORRECTOS O NO ESTA REGISTRADO");
+            }
+           
 
+        }
+
+        private void Registrar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(conexion.Registrar(textBoxDNIregistro.Text, textBoxnombre.Text, textBoxcontraseña.Text));
         }
     }
 }
