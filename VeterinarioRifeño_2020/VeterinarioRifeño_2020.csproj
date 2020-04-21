@@ -116,5 +116,50 @@
   <ItemGroup>
     <None Include="Resources\logo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconoeliminar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconomaximzar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconominimizar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconorestaurar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_dog_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_dog_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mascota_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mascota_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vacuna_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vacuna_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peluqueria_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guarderia_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir_32.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

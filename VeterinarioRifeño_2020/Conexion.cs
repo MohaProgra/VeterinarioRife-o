@@ -15,7 +15,7 @@ namespace VeterinarioRifeño_2020
 
             {
 
-                conexion = new MySqlConnection("Server = 192.168.71.160; Database = veterinario; Uid = root; Pwd =; Port = 3306");
+                conexion = new MySqlConnection("Server = 192.168.71.166; Database = veterinario; Uid = root; Pwd =; Port = 3306");
             }
        
 
